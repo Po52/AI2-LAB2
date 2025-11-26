@@ -1,0 +1,23 @@
+<article class="listing">
+    <img
+      class="listing-photo"
+      [src]="housingLocation.photo"
+      alt="Photo of {{ housingLocation.name }}"
+      crossorigin="anonymous"
+    />
+  
+    <h2 class="listing-heading">{{ housingLocation.name }}</h2>
+  
+    <p class="listing-location">
+      {{ housingLocation.city }}, {{ housingLocation.state }}
+    </p>
+  
+    <p class="listing-units">
+      Available units: {{ housingLocation.availableUnits }}
+    </p>
+  
+    <a class="listing-link" [routerLink]="['/details', housingLocation.id]">
+      Learn more
+    </a>
+  </article>
+  
