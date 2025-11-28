@@ -1,0 +1,12 @@
+<div id="frame">
+    <div>Random component (max = {{max }})</div>
+    <span>{{ myNumber }}</span>
+    <button (click)="btnClick()">Losuj</button>
+    @if (isSmallerThanHalf()){
+        <span [class.green]="isSmallerThanHalf()">dolna polowa wartosci</span>
+    }
+
+    @if (!isSmallerThanHalf()) {
+        <span [class.red]="!isSmallerThanHalf()">gorna polowa wartosci</span>
+    }
+</div>
