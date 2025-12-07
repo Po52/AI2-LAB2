@@ -1,0 +1,25 @@
+form {
+    margin-top: 5px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+label {
+    width: 120px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: left;
+}
+
+input {
+    padding: 6px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 12px;
+}

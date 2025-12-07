@@ -1,0 +1,33 @@
+.details-container {
+    max-width: 600px;
+    padding: 10px;
+}
+
+.person {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.person h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.info, .address {
+    padding: 15px;
+    border-radius: 8px;
+    background: lightgray;
+}
+
+.info dt,
+.address dt {
+    font-weight: bold;
+    width: 120px;
+}
+
+.alert {
+    background: white;
+    color: red;
+    text-align: center;
+}

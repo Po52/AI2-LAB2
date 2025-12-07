@@ -1,0 +1,17 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(246, 172, 197);
+    text-align: left;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+header{
+    width: 100%;
+    background-color: pink;
+    height: 60px;
+}
