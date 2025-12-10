@@ -1,0 +1,33 @@
+{
+  "todos": [
+    {
+      "title": "Hello World",
+      "deadline": "1900-01-01",
+      "completed": true,
+      "archieved": false,
+      "id": "1",
+      "archived": true
+    },
+    {
+      "id": "2",
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": false,
+      "archived": false
+    },
+    {
+      "id": "3",
+      "title": "Yasss",
+      "deadline": "2025-01-01",
+      "completed": false,
+      "archived": false
+    },
+    {
+      "id": "76b0",
+      "title": "lalalallalalala",
+      "deadline": "2025-12-19",
+      "completed": false,
+      "archived": false
+    }
+  ]
+}

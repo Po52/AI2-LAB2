@@ -32,8 +32,7 @@ export class AddPerson implements OnInit{
     this.router.navigate(['/list']);
   }
 
-  ngOnInit(): void {
-    
+  ngOnInit(): void {  
   }
 
 }
